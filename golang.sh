@@ -32,6 +32,6 @@ gcc -c -fpic -I includes djongodriver.cpp
 gcc -shared djongodriver.o -lstdc++ -ldjon-client -o djondbgo.so
 6g djondb.go
 6c -I $GOROOT/src/pkg/runtime/ djondb_gc.c
-gopack grc djondb.a djondb.6 djondb_gc.6
+gopack grc djondbgo.a djondb.6 djondb_gc.6
 exit 1
 
