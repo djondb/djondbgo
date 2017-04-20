@@ -23,7 +23,6 @@ Djondb GO depends on satori go.uuid, to retrieve it you can use:
 
 
 ## Example using DQL
-
 import (
 	"github.com/djondb/djondbgo"
 )
@@ -48,31 +47,6 @@ func main() {
 	}
 }
 
-## Example using DQL
-import (
-	djondb
-)
+## Documentation
 
-func main() {
-	con := CreateConnection("localhost", 1243)
-	con.open()
-
-	o := make(map[string]interface{})
-
-	o["name"] = "John"
-	o["lastName"] = "Smith"
-	o["age"] = 10
-	o["b"] = true
-	o["salary"] = 12232.232
-
-	inner := make(map[string]interface{})
-	inner["test"] = "blah"
-	o["inner"] = inner
-
-	arr := make([]map[string]interface{}, 1, 1)
-	element := make(map[string]interface{})
-	element["arr"] = "Hello"
-	arr[0] = element
-	o["arr"] = arr
-	con.insert("testdb", "testinsert", o)
-}
+For a complete documentation on methods please refer to here: http://djondb.com/docs/?section=go-driver
