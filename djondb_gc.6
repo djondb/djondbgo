@@ -1,362 +1,0 @@
-go object linux amd64 go1.1.2
-
-$$  // exports
-
-$$  // local types
-
-$$  // cgo
-cgo_import_dynamic _ _ djondb.so
-cgo_import_dynamic _wrap_new_BSONObjVectorPtr__SWIG_0 _wrap_new_BSONObjVectorPtr__SWIG_0 ''
-cgo_import_dynamic _wrap_new_BSONObjVectorPtr__SWIG_1 _wrap_new_BSONObjVectorPtr__SWIG_1 ''
-cgo_import_dynamic _wrap_BSONObjVectorPtr_size _wrap_BSONObjVectorPtr_size ''
-cgo_import_dynamic _wrap_BSONObjVectorPtr_capacity _wrap_BSONObjVectorPtr_capacity ''
-cgo_import_dynamic _wrap_BSONObjVectorPtr_reserve _wrap_BSONObjVectorPtr_reserve ''
-cgo_import_dynamic _wrap_BSONObjVectorPtr_isEmpty _wrap_BSONObjVectorPtr_isEmpty ''
-cgo_import_dynamic _wrap_BSONObjVectorPtr_clear _wrap_BSONObjVectorPtr_clear ''
-cgo_import_dynamic _wrap_BSONObjVectorPtr_add _wrap_BSONObjVectorPtr_add ''
-cgo_import_dynamic _wrap_BSONObjVectorPtr_get _wrap_BSONObjVectorPtr_get ''
-cgo_import_dynamic _wrap_BSONObjVectorPtr_set _wrap_BSONObjVectorPtr_set ''
-cgo_import_dynamic _wrap_delete_BSONObjVectorPtr _wrap_delete_BSONObjVectorPtr ''
-cgo_import_dynamic _wrap_new_StringVector__SWIG_0 _wrap_new_StringVector__SWIG_0 ''
-cgo_import_dynamic _wrap_new_StringVector__SWIG_1 _wrap_new_StringVector__SWIG_1 ''
-cgo_import_dynamic _wrap_StringVector_size _wrap_StringVector_size ''
-cgo_import_dynamic _wrap_StringVector_capacity _wrap_StringVector_capacity ''
-cgo_import_dynamic _wrap_StringVector_reserve _wrap_StringVector_reserve ''
-cgo_import_dynamic _wrap_StringVector_isEmpty _wrap_StringVector_isEmpty ''
-cgo_import_dynamic _wrap_StringVector_clear _wrap_StringVector_clear ''
-cgo_import_dynamic _wrap_StringVector_add _wrap_StringVector_add ''
-cgo_import_dynamic _wrap_StringVector_get _wrap_StringVector_get ''
-cgo_import_dynamic _wrap_StringVector_set _wrap_StringVector_set ''
-cgo_import_dynamic _wrap_delete_StringVector _wrap_delete_StringVector ''
-cgo_import_dynamic _wrap_new_BSONArrayObj__SWIG_0 _wrap_new_BSONArrayObj__SWIG_0 ''
-cgo_import_dynamic _wrap_delete_BSONArrayObj _wrap_delete_BSONArrayObj ''
-cgo_import_dynamic _wrap_new_BSONArrayObj__SWIG_1 _wrap_new_BSONArrayObj__SWIG_1 ''
-cgo_import_dynamic _wrap_BSONArrayObj_length _wrap_BSONArrayObj_length ''
-cgo_import_dynamic _wrap_BSONArrayObj_add _wrap_BSONArrayObj_add ''
-cgo_import_dynamic _wrap_BSONArrayObj_addAll _wrap_BSONArrayObj_addAll ''
-cgo_import_dynamic _wrap_BSONArrayObj_get _wrap_BSONArrayObj_get ''
-cgo_import_dynamic _wrap_BSONArrayObj_toChar _wrap_BSONArrayObj_toChar ''
-cgo_import_dynamic _wrap_BSONArrayObj_Xselect _wrap_BSONArrayObj_Xselect ''
-cgo_import_dynamic _wrap_BSONArrayObj_begin__SWIG_0 _wrap_BSONArrayObj_begin__SWIG_0 ''
-cgo_import_dynamic _wrap_BSONArrayObj_end__SWIG_0 _wrap_BSONArrayObj_end__SWIG_0 ''
-cgo_import_dynamic _wrap_BSONArrayObj_begin__SWIG_1 _wrap_BSONArrayObj_begin__SWIG_1 ''
-cgo_import_dynamic _wrap_BSONArrayObj_end__SWIG_1 _wrap_BSONArrayObj_end__SWIG_1 ''
-cgo_import_dynamic _wrap_new_BSONObj__SWIG_0 _wrap_new_BSONObj__SWIG_0 ''
-cgo_import_dynamic _wrap_new_BSONObj__SWIG_1 _wrap_new_BSONObj__SWIG_1 ''
-cgo_import_dynamic _wrap_delete_BSONObj _wrap_delete_BSONObj ''
-cgo_import_dynamic _wrap_BSONObj_add__SWIG_0 _wrap_BSONObj_add__SWIG_0 ''
-cgo_import_dynamic _wrap_BSONObj_add__SWIG_1 _wrap_BSONObj_add__SWIG_1 ''
-cgo_import_dynamic _wrap_BSONObj_add__SWIG_2 _wrap_BSONObj_add__SWIG_2 ''
-cgo_import_dynamic _wrap_BSONObj_add__SWIG_3 _wrap_BSONObj_add__SWIG_3 ''
-cgo_import_dynamic _wrap_BSONObj_add__SWIG_4 _wrap_BSONObj_add__SWIG_4 ''
-cgo_import_dynamic _wrap_BSONObj_add__SWIG_5 _wrap_BSONObj_add__SWIG_5 ''
-cgo_import_dynamic _wrap_BSONObj_add__SWIG_6 _wrap_BSONObj_add__SWIG_6 ''
-cgo_import_dynamic _wrap_BSONObj_add__SWIG_7 _wrap_BSONObj_add__SWIG_7 ''
-cgo_import_dynamic _wrap_BSONObj_add__SWIG_8 _wrap_BSONObj_add__SWIG_8 ''
-cgo_import_dynamic _wrap_BSONObj_has _wrap_BSONObj_has ''
-cgo_import_dynamic _wrap_BSONObj_getBoolean _wrap_BSONObj_getBoolean ''
-cgo_import_dynamic _wrap_BSONObj_getInt _wrap_BSONObj_getInt ''
-cgo_import_dynamic _wrap_BSONObj_getDouble _wrap_BSONObj_getDouble ''
-cgo_import_dynamic _wrap_BSONObj_getLong _wrap_BSONObj_getLong ''
-cgo_import_dynamic _wrap_BSONObj_getString _wrap_BSONObj_getString ''
-cgo_import_dynamic _wrap_BSONObj_getBSON _wrap_BSONObj_getBSON ''
-cgo_import_dynamic _wrap_BSONObj_getBSONArray _wrap_BSONObj_getBSONArray ''
-cgo_import_dynamic _wrap_BSONObj_get _wrap_BSONObj_get ''
-cgo_import_dynamic _wrap_BSONObj_getContent__SWIG_0 _wrap_BSONObj_getContent__SWIG_0 ''
-cgo_import_dynamic _wrap_BSONObj_getContent__SWIG_1 _wrap_BSONObj_getContent__SWIG_1 ''
-cgo_import_dynamic _wrap_BSONObj_getXpath _wrap_BSONObj_getXpath ''
-cgo_import_dynamic _wrap_BSONObj_Xselect _wrap_BSONObj_Xselect ''
-cgo_import_dynamic _wrap_BSONObj_Xtype _wrap_BSONObj_Xtype ''
-cgo_import_dynamic _wrap_BSONObj_toChar _wrap_BSONObj_toChar ''
-cgo_import_dynamic _wrap_BSONObj_begin _wrap_BSONObj_begin ''
-cgo_import_dynamic _wrap_BSONObj_end _wrap_BSONObj_end ''
-cgo_import_dynamic _wrap_BSONObj_length _wrap_BSONObj_length ''
-cgo_import_dynamic _wrap_new_BSONParser _wrap_new_BSONParser ''
-cgo_import_dynamic _wrap_delete_BSONParser _wrap_delete_BSONParser ''
-cgo_import_dynamic _wrap_BSONParser_parse _wrap_BSONParser_parse ''
-cgo_import_dynamic _wrap_BSONParser_parseArray _wrap_BSONParser_parseArray ''
-cgo_import_dynamic _wrap_FO_NONE _wrap_FO_NONE ''
-cgo_import_dynamic _wrap_FO_TOKEN _wrap_FO_TOKEN ''
-cgo_import_dynamic _wrap_FO_AND _wrap_FO_AND ''
-cgo_import_dynamic _wrap_FO_OR _wrap_FO_OR ''
-cgo_import_dynamic _wrap_FO_EQUALS _wrap_FO_EQUALS ''
-cgo_import_dynamic _wrap_FO_NOT_EQUALS _wrap_FO_NOT_EQUALS ''
-cgo_import_dynamic _wrap_FO_PARENTESIS_OPEN _wrap_FO_PARENTESIS_OPEN ''
-cgo_import_dynamic _wrap_FO_PARENTESIS_CLOSE _wrap_FO_PARENTESIS_CLOSE ''
-cgo_import_dynamic _wrap_FO_NOT _wrap_FO_NOT ''
-cgo_import_dynamic _wrap_FO_LESSTHAN _wrap_FO_LESSTHAN ''
-cgo_import_dynamic _wrap_FO_LESSEQUALTHAN _wrap_FO_LESSEQUALTHAN ''
-cgo_import_dynamic _wrap_FO_GREATERTHAN _wrap_FO_GREATERTHAN ''
-cgo_import_dynamic _wrap_FO_GREATEREQUALTHAN _wrap_FO_GREATEREQUALTHAN ''
-cgo_import_dynamic _wrap_FO_EXISTS _wrap_FO_EXISTS ''
-cgo_import_dynamic _wrap_ET_CONSTANT _wrap_ET_CONSTANT ''
-cgo_import_dynamic _wrap_ET_SIMPLE _wrap_ET_SIMPLE ''
-cgo_import_dynamic _wrap_ET_BINARY _wrap_ET_BINARY ''
-cgo_import_dynamic _wrap_ET_UNARY _wrap_ET_UNARY ''
-cgo_import_dynamic _wrap_parseFilterOperator _wrap_parseFilterOperator ''
-cgo_import_dynamic _wrap_new_ParseException__SWIG_0 _wrap_new_ParseException__SWIG_0 ''
-cgo_import_dynamic _wrap_new_ParseException__SWIG_1 _wrap_new_ParseException__SWIG_1 ''
-cgo_import_dynamic _wrap_ParseException_what _wrap_ParseException_what ''
-cgo_import_dynamic _wrap_ParseException_errorCode _wrap_ParseException_errorCode ''
-cgo_import_dynamic _wrap_delete_ParseException _wrap_delete_ParseException ''
-cgo_import_dynamic _wrap_bson_splitSelect _wrap_bson_splitSelect ''
-cgo_import_dynamic _wrap_bson_subselect _wrap_bson_subselect ''
-cgo_import_dynamic _wrap_convert _wrap_convert ''
-cgo_import_dynamic _wrap_new_DjondbConnection__SWIG_0 _wrap_new_DjondbConnection__SWIG_0 ''
-cgo_import_dynamic _wrap_new_DjondbConnection__SWIG_1 _wrap_new_DjondbConnection__SWIG_1 ''
-cgo_import_dynamic _wrap_new_DjondbConnection__SWIG_2 _wrap_new_DjondbConnection__SWIG_2 ''
-cgo_import_dynamic _wrap_delete_DjondbConnection _wrap_delete_DjondbConnection ''
-cgo_import_dynamic _wrap_DjondbConnection_beginTransaction _wrap_DjondbConnection_beginTransaction ''
-cgo_import_dynamic _wrap_DjondbConnection_commitTransaction _wrap_DjondbConnection_commitTransaction ''
-cgo_import_dynamic _wrap_DjondbConnection_rollbackTransaction _wrap_DjondbConnection_rollbackTransaction ''
-cgo_import_dynamic _wrap_DjondbConnection_open _wrap_DjondbConnection_open ''
-cgo_import_dynamic _wrap_DjondbConnection_close _wrap_DjondbConnection_close ''
-cgo_import_dynamic _wrap_DjondbConnection_internalClose _wrap_DjondbConnection_internalClose ''
-cgo_import_dynamic _wrap_DjondbConnection_isOpen _wrap_DjondbConnection_isOpen ''
-cgo_import_dynamic _wrap_DjondbConnection_shutdown _wrap_DjondbConnection_shutdown ''
-cgo_import_dynamic _wrap_DjondbConnection_insert__SWIG_0 _wrap_DjondbConnection_insert__SWIG_0 ''
-cgo_import_dynamic _wrap_DjondbConnection_insert__SWIG_1 _wrap_DjondbConnection_insert__SWIG_1 ''
-cgo_import_dynamic _wrap_DjondbConnection_findByKey__SWIG_0 _wrap_DjondbConnection_findByKey__SWIG_0 ''
-cgo_import_dynamic _wrap_DjondbConnection_findByKey__SWIG_1 _wrap_DjondbConnection_findByKey__SWIG_1 ''
-cgo_import_dynamic _wrap_DjondbConnection_find__SWIG_0 _wrap_DjondbConnection_find__SWIG_0 ''
-cgo_import_dynamic _wrap_DjondbConnection_find__SWIG_1 _wrap_DjondbConnection_find__SWIG_1 ''
-cgo_import_dynamic _wrap_DjondbConnection_find__SWIG_2 _wrap_DjondbConnection_find__SWIG_2 ''
-cgo_import_dynamic _wrap_DjondbConnection_find__SWIG_3 _wrap_DjondbConnection_find__SWIG_3 ''
-cgo_import_dynamic _wrap_DjondbConnection_find__SWIG_4 _wrap_DjondbConnection_find__SWIG_4 ''
-cgo_import_dynamic _wrap_DjondbConnection_find__SWIG_5 _wrap_DjondbConnection_find__SWIG_5 ''
-cgo_import_dynamic _wrap_DjondbConnection_update__SWIG_0 _wrap_DjondbConnection_update__SWIG_0 ''
-cgo_import_dynamic _wrap_DjondbConnection_update__SWIG_1 _wrap_DjondbConnection_update__SWIG_1 ''
-cgo_import_dynamic _wrap_DjondbConnection_remove _wrap_DjondbConnection_remove ''
-cgo_import_dynamic _wrap_DjondbConnection_executeQuery _wrap_DjondbConnection_executeQuery ''
-cgo_import_dynamic _wrap_DjondbConnection_executeUpdate _wrap_DjondbConnection_executeUpdate ''
-cgo_import_dynamic _wrap_DjondbConnection_dropNamespace _wrap_DjondbConnection_dropNamespace ''
-cgo_import_dynamic _wrap_DjondbConnection_dbs _wrap_DjondbConnection_dbs ''
-cgo_import_dynamic _wrap_DjondbConnection_namespaces _wrap_DjondbConnection_namespaces ''
-cgo_import_dynamic _wrap_DjondbConnection_host _wrap_DjondbConnection_host ''
-cgo_import_dynamic _wrap_new_DjondbCursor__SWIG_0 _wrap_new_DjondbCursor__SWIG_0 ''
-cgo_import_dynamic _wrap_new_DjondbCursor__SWIG_1 _wrap_new_DjondbCursor__SWIG_1 ''
-cgo_import_dynamic _wrap_delete_DjondbCursor _wrap_delete_DjondbCursor ''
-cgo_import_dynamic _wrap_DjondbCursor_next _wrap_DjondbCursor_next ''
-cgo_import_dynamic _wrap_DjondbCursor_previous _wrap_DjondbCursor_previous ''
-cgo_import_dynamic _wrap_DjondbCursor_current _wrap_DjondbCursor_current ''
-cgo_import_dynamic _wrap_DjondbCursor_length _wrap_DjondbCursor_length ''
-cgo_import_dynamic _wrap_DjondbCursor_releaseCursor _wrap_DjondbCursor_releaseCursor ''
-cgo_import_dynamic _wrap_DjondbCursor_seek _wrap_DjondbCursor_seek ''
-cgo_import_dynamic _wrap_ConnectionReference__connection_set _wrap_ConnectionReference__connection_set ''
-cgo_import_dynamic _wrap_ConnectionReference__connection_get _wrap_ConnectionReference__connection_get ''
-cgo_import_dynamic _wrap_ConnectionReference__references_set _wrap_ConnectionReference__references_set ''
-cgo_import_dynamic _wrap_ConnectionReference__references_get _wrap_ConnectionReference__references_get ''
-cgo_import_dynamic _wrap_new_ConnectionReference _wrap_new_ConnectionReference ''
-cgo_import_dynamic _wrap_delete_ConnectionReference _wrap_delete_ConnectionReference ''
-cgo_import_dynamic _wrap_new_DjondbConnectionManager _wrap_new_DjondbConnectionManager ''
-cgo_import_dynamic _wrap_delete_DjondbConnectionManager _wrap_delete_DjondbConnectionManager ''
-cgo_import_dynamic _wrap_DjondbConnectionManager_getConnection__SWIG_0 _wrap_DjondbConnectionManager_getConnection__SWIG_0 ''
-cgo_import_dynamic _wrap_DjondbConnectionManager_getConnection__SWIG_1 _wrap_DjondbConnectionManager_getConnection__SWIG_1 ''
-cgo_import_dynamic _wrap_DjondbConnectionManager_releaseConnection _wrap_DjondbConnectionManager_releaseConnection ''
-
-$$
-
-!
-Ñ y</ Ñ y<home Ñ y<cross Ñ y<workspace Ñ y<djondbgo Ñ y<djondb_gc.c 8      Ñ y</ Ñ y<home Ñ y<cross Ñ y<go Ñ y<src Ñ y<pkg Ñ y<runtime Ñ y</ Ñ y<runtime.h 8      8     Ñ y</ Ñ y<home Ñ y<cross Ñ y<go Ñ y<src Ñ y<pkg Ñ y<runtime Ñ y</ Ñ y<cgocall.h 8     8     8 ≥    Ñ rx_wrap_new_BSONObjVectorPtr__SWIG_0 Ñ q_wrap_new_BSONObjVectorPtr__SWIG_0 -   orq xÑ q""._swig_wrap_new_BSONObjVectorPtr__SWIG_0 „   qE      uÆ   rÆ   èÑ tp ´   tÆ      èÑ qruntime.cgocall      q™      Ñ rx_wrap_new_BSONObjVectorPtr__SWIG_1 Ñ q_wrap_new_BSONObjVectorPtr__SWIG_1 - '  orq xÑ q""._swig_wrap_new_BSONObjVectorPtr__SWIG_1 „ *  qE      uÆ/  rÆ/  è´/  tÆ/     è /   q™ /    Ñ r	x_wrap_BSONObjVectorPtr_size Ñ q
-_wrap_BSONObjVectorPtr_size - 6  o	rq 
-xÑ q""._swig_wrap_BSONObjVectorPtr_size „ 9  qE      uÆ>  	rÆ>  è´>  tÆ>     è >   q™ >    Ñ rx_wrap_BSONObjVectorPtr_capacity Ñ q_wrap_BSONObjVectorPtr_capacity - E  orq xÑ q""._swig_wrap_BSONObjVectorPtr_capacity „ H  qE      uÆM  rÆM  è´M  tÆM     è M   q™ M    Ñ rx_wrap_BSONObjVectorPtr_reserve Ñ q_wrap_BSONObjVectorPtr_reserve - T  orq xÑ q""._swig_wrap_BSONObjVectorPtr_reserve „ W  qE      uÆ\  rÆ\  è´\  tÆ\     è \   q™ \    Ñ rx_wrap_BSONObjVectorPtr_isEmpty Ñ q_wrap_BSONObjVectorPtr_isEmpty - c  orq xÑ q""._swig_wrap_BSONObjVectorPtr_isEmpty „ f  qE      uÆk  rÆk  è´k  tÆk     è k   q™ k    Ñ rx_wrap_BSONObjVectorPtr_clear Ñ q_wrap_BSONObjVectorPtr_clear - r  orq xÑ q""._swig_wrap_BSONObjVectorPtr_clear „ u  qE      uÆz  rÆz  è´z  tÆz     è z   q™ z    Ñ rx_wrap_BSONObjVectorPtr_add Ñ q_wrap_BSONObjVectorPtr_add - Å  orq xÑ q""._swig_wrap_BSONObjVectorPtr_add „ Ñ  qE      uÆâ  rÆâ  è´â  tÆâ     è â   q™ â    Ñ rx_wrap_BSONObjVectorPtr_get Ñ q_wrap_BSONObjVectorPtr_get - ê  orq xÑ q""._swig_wrap_BSONObjVectorPtr_get „ ì  qE       uÆò  rÆò  è´ò  tÆò     è ò   q™ ò    Ñ rx_wrap_BSONObjVectorPtr_set Ñ q_wrap_BSONObjVectorPtr_set - ü  orq xÑ q ""._swig_wrap_BSONObjVectorPtr_set „ ¢   qE       uÆß  rÆß  è´ß  tÆß     è ß   q™ ß    Ñ r!x_wrap_delete_BSONObjVectorPtr Ñ q"_wrap_delete_BSONObjVectorPtr - Æ  o!rq "xÑ q#""._swig_wrap_delete_BSONObjVectorPtr „ ±  #qE      uÆ∂  !rÆ∂  è´∂  tÆ∂     è ∂   q™ ∂    Ñ r$x_wrap_new_StringVector__SWIG_0 Ñ q%_wrap_new_StringVector__SWIG_0 - Ω  o$rq %xÑ q&""._swig_wrap_new_StringVector__SWIG_0 „ ¿  &qE      uÆ≈  $rÆ≈  è´≈  tÆ≈     è ≈   q™ ≈    Ñ r'x_wrap_new_StringVector__SWIG_1 Ñ q(_wrap_new_StringVector__SWIG_1 - Ã  o'rq (xÑ q)""._swig_wrap_new_StringVector__SWIG_1 „ œ  )qE      uÆ‘  'rÆ‘  è´‘  tÆ‘     è ‘   q™ ‘    Ñ r*x_wrap_StringVector_size Ñ q+_wrap_StringVector_size - €  o*rq +xÑ q,""._swig_wrap_StringVector_size „ ﬁ  ,qE      uÆ„  *rÆ„  è´„  tÆ„     è „   q™ „    Ñ r-x_wrap_StringVector_capacity Ñ q._wrap_StringVector_capacity - Í  o-rq .xÑ q/""._swig_wrap_StringVector_capacity „ Ì  /qE      uÆÚ  -rÆÚ  è´Ú  tÆÚ     è Ú   q™ Ú    Ñ r0x_wrap_StringVector_reserve Ñ q1_wrap_StringVector_reserve - ˘  o0rq 1xÑ q""._swig_wrap_StringVector_reserve „ ¸  qE      uÆ  0rÆ  è´  tÆ     è    q™     Ñ rx_wrap_StringVector_isEmpty Ñ q_wrap_StringVector_isEmpty -   orq xÑ q""._swig_wrap_StringVector_isEmpty „   qE      uÆ  rÆ  èÑ tp ´  tÆ     èÑ qruntime.cgocall     q™     Ñ rx_wrap_StringVector_clear Ñ q_wrap_StringVector_clear -   orq xÑ q	""._swig_wrap_StringVector_clear „   	qE      uÆ  rÆ  è´  tÆ     è    q™     Ñ r
-x_wrap_StringVector_add Ñ q_wrap_StringVector_add - &  o
-rq xÑ q""._swig_wrap_StringVector_add „ )  qE       uÆ.  
-rÆ.  è´.  tÆ.     è .   q™ .    Ñ rx_wrap_StringVector_get Ñ q_wrap_StringVector_get - 5  orq xÑ q""._swig_wrap_StringVector_get „ 8  qE   (   uÆ=  rÆ=  è´=  tÆ=     è =   q™ =    Ñ rx_wrap_StringVector_set Ñ q_wrap_StringVector_set - D  orq xÑ q""._swig_wrap_StringVector_set „ G  qE   (   uÆL  rÆL  è´L  tÆL     è L   q™ L    Ñ rx_wrap_delete_StringVector Ñ q_wrap_delete_StringVector - S  orq xÑ q""._swig_wrap_delete_StringVector „ V  qE      uÆ[  rÆ[  è´[  tÆ[     è [   q™ [    Ñ rx_wrap_new_BSONArrayObj__SWIG_0 Ñ q_wrap_new_BSONArrayObj__SWIG_0 - b  orq xÑ q""._swig_wrap_new_BSONArrayObj__SWIG_0 „ e  qE      uÆj  rÆj  è´j  tÆj     è j   q™ j    Ñ rx_wrap_delete_BSONArrayObj Ñ q_wrap_delete_BSONArrayObj - q  orq xÑ q""._swig_wrap_delete_BSONArrayObj „ t  qE      uÆy  rÆy  è´y  tÆy     è y   q™ y    Ñ rx_wrap_new_BSONArrayObj__SWIG_1 Ñ q_wrap_new_BSONArrayObj__SWIG_1 - Ä  orq xÑ q""._swig_wrap_new_BSONArrayObj__SWIG_1 „ É  qE      uÆà  rÆà  è´à  tÆà     è à   q™ à    Ñ rx_wrap_BSONArrayObj_length Ñ q _wrap_BSONArrayObj_length - è  orq  xÑ q!""._swig_wrap_BSONArrayObj_length „ í  !qE      uÆó  rÆó  è´ó  tÆó     è ó   q™ ó    Ñ r"x_wrap_BSONArrayObj_add Ñ q#_wrap_BSONArrayObj_add - û  o"rq #xÑ q$""._swig_wrap_BSONArrayObj_add „ °  $qE      uÆ¶  "rÆ¶  è´¶  tÆ¶     è ¶   q™ ¶    Ñ r%x_wrap_BSONArrayObj_addAll Ñ q&_wrap_BSONArrayObj_addAll - ≠  o%rq &xÑ q'""._swig_wrap_BSONArrayObj_addAll „ ∞  'qE      uÆµ  %rÆµ  è´µ  tÆµ     è µ   q™ µ    Ñ r(x_wrap_BSONArrayObj_get Ñ q)_wrap_BSONArrayObj_get - º  o(rq )xÑ q*""._swig_wrap_BSONArrayObj_get „ ø  *qE       uÆƒ  (rÆƒ  è´ƒ  tÆƒ     è ƒ   q™ ƒ    Ñ r+x_wrap_BSONArrayObj_toChar Ñ q,_wrap_BSONArrayObj_toChar - À  o+rq ,xÑ q-""._swig_wrap_BSONArrayObj_toChar „ Œ  -qE       uÆ”  +rÆ”  è´”  tÆ”     è ”   q™ ”    Ñ r.x_wrap_BSONArrayObj_Xselect Ñ q/_wrap_BSONArrayObj_Xselect - ⁄  o.rq /xÑ q0""._swig_wrap_BSONArrayObj_Xselect „ ›  0qE   (   uÆ‚  .rÆ‚  è´‚  tÆ‚     è ‚   q™ ‚    Ñ r1x_wrap_BSONArrayObj_begin__SWIG_0 Ñ q_wrap_BSONArrayObj_begin__SWIG_0 - È  o1rq xÑ q""._swig_wrap_BSONArrayObj_begin__SWIG_0 „ Ï  qE      uÆÒ  1rÆÒ  è´Ò  tÆÒ     è Ò   q™ Ò    Ñ rx_wrap_BSONArrayObj_end__SWIG_0 Ñ q_wrap_BSONArrayObj_end__SWIG_0 - ¯  orq xÑ q""._swig_wrap_BSONArrayObj_end__SWIG_0 „ ˚  qE      uÆ   rÆ   èÑ tp ´   tÆ      èÑ qruntime.cgocall      q™      Ñ rx_wrap_BSONArrayObj_begin__SWIG_1 Ñ q	_wrap_BSONArrayObj_begin__SWIG_1 -   orq 	xÑ q
-""._swig_wrap_BSONArrayObj_begin__SWIG_1 „ 
-  
-qE      uÆ  rÆ  è´  tÆ     è    q™     Ñ rx_wrap_BSONArrayObj_end__SWIG_1 Ñ q_wrap_BSONArrayObj_end__SWIG_1 -   orq xÑ q""._swig_wrap_BSONArrayObj_end__SWIG_1 „   qE      uÆ  rÆ  è´  tÆ     è    q™     Ñ rx_wrap_new_BSONObj__SWIG_0 Ñ q_wrap_new_BSONObj__SWIG_0 - %  orq xÑ q""._swig_wrap_new_BSONObj__SWIG_0 „ (  qE      uÆ-  rÆ-  è´-  tÆ-     è -   q™ -    Ñ rx_wrap_new_BSONObj__SWIG_1 Ñ q_wrap_new_BSONObj__SWIG_1 - 4  orq xÑ q""._swig_wrap_new_BSONObj__SWIG_1 „ 7  qE      uÆ<  rÆ<  è´<  tÆ<     è <   q™ <    Ñ rx_wrap_delete_BSONObj Ñ q_wrap_delete_BSONObj - C  orq xÑ q""._swig_wrap_delete_BSONObj „ F  qE      uÆK  rÆK  è´K  tÆK     è K   q™ K    Ñ rx_wrap_BSONObj_add__SWIG_0 Ñ q_wrap_BSONObj_add__SWIG_0 - R  orq xÑ q""._swig_wrap_BSONObj_add__SWIG_0 „ U  qE   (   uÆZ  rÆZ  è´Z  tÆZ     è Z   q™ Z    Ñ rx_wrap_BSONObj_add__SWIG_1 Ñ q_wrap_BSONObj_add__SWIG_1 - a  orq xÑ q""._swig_wrap_BSONObj_add__SWIG_1 „ d  qE   (   uÆi  rÆi  è´i  tÆi     è i   q™ i    Ñ rx_wrap_BSONObj_add__SWIG_2 Ñ q_wrap_BSONObj_add__SWIG_2 - p  orq xÑ q""._swig_wrap_BSONObj_add__SWIG_2 „ s  qE   (   uÆx  rÆx  è´x  tÆx     è x   q™ x    Ñ r x_wrap_BSONObj_add__SWIG_3 Ñ q!_wrap_BSONObj_add__SWIG_3 -   o rq !xÑ q"""._swig_wrap_BSONObj_add__SWIG_3 „ Ç  "qE   0   uÆá   rÆá  è´á  tÆá     è á   q™ á    Ñ r#x_wrap_BSONObj_add__SWIG_4 Ñ q$_wrap_BSONObj_add__SWIG_4 - é  o#rq $xÑ q%""._swig_wrap_BSONObj_add__SWIG_4 „ ë  %qE   8   uÆñ  #rÆñ  è´ñ  tÆñ     è ñ   q™ ñ    Ñ r&x_wrap_BSONObj_add__SWIG_5 Ñ q'_wrap_BSONObj_add__SWIG_5 - ù  o&rq 'xÑ q(""._swig_wrap_BSONObj_add__SWIG_5 „ †  (qE   (   uÆ•  &rÆ•  è´•  tÆ•     è •   q™ •    Ñ r)x_wrap_BSONObj_add__SWIG_6 Ñ q*_wrap_BSONObj_add__SWIG_6 - ¨  o)rq *xÑ q+""._swig_wrap_BSONObj_add__SWIG_6 „ Ø  +qE   (   uÆ¥  )rÆ¥  è´¥  tÆ¥     è ¥   q™ ¥    Ñ r,x_wrap_BSONObj_add__SWIG_7 Ñ q-_wrap_BSONObj_add__SWIG_7 - ª  o,rq -xÑ q.""._swig_wrap_BSONObj_add__SWIG_7 „ æ  .qE   (   uÆ√  ,rÆ√  è´√  tÆ√     è √   q™ √    Ñ r/x_wrap_BSONObj_add__SWIG_8 Ñ q0_wrap_BSONObj_add__SWIG_8 -    o/rq 0xÑ q1""._swig_wrap_BSONObj_add__SWIG_8 „ Õ  1qE   (   uÆ“  /rÆ“  è´“  tÆ“     è “   q™ “    Ñ rx_wrap_BSONObj_has Ñ q_wrap_BSONObj_has - Ÿ  orq xÑ q""._swig_wrap_BSONObj_has „ ‹  qE   (   uÆ·  rÆ·  è´·  tÆ·     è ·   q™ ·    Ñ rx_wrap_BSONObj_getBoolean Ñ q_wrap_BSONObj_getBoolean - Ë  orq xÑ q""._swig_wrap_BSONObj_getBoolean „ Î  qE   (   uÆ  rÆ  èÑ tp ´  tÆ     èÑ qruntime.cgocall     q™     Ñ r	x_wrap_BSONObj_getInt Ñ q
-_wrap_BSONObj_getInt - ˜  o	rq 
-xÑ q""._swig_wrap_BSONObj_getInt „ ˙  qE   (   uÆˇ  	rÆˇ  è´ˇ  tÆˇ     è ˇ   q™ ˇ    Ñ rx_wrap_BSONObj_getDouble Ñ q_wrap_BSONObj_getDouble -   orq xÑ q""._swig_wrap_BSONObj_getDouble „ 	  qE   (   uÆ  rÆ  è´  tÆ     è    q™     Ñ rx_wrap_BSONObj_getLong Ñ q_wrap_BSONObj_getLong -   orq xÑ q""._swig_wrap_BSONObj_getLong „   qE   (   uÆ  rÆ  è´  tÆ     è    q™     Ñ rx_wrap_BSONObj_getString Ñ q_wrap_BSONObj_getString - $  orq xÑ q""._swig_wrap_BSONObj_getString „ '  qE   0   uÆ,  rÆ,  è´,  tÆ,     è ,   q™ ,    Ñ rx_wrap_BSONObj_getBSON Ñ q_wrap_BSONObj_getBSON - 3  orq xÑ q""._swig_wrap_BSONObj_getBSON „ 6  qE   (   uÆ;  rÆ;  è´;  tÆ;     è ;   q™ ;    Ñ rx_wrap_BSONObj_getBSONArray Ñ q_wrap_BSONObj_getBSONArray - B  orq xÑ q""._swig_wrap_BSONObj_getBSONArray „ E  qE   (   uÆJ  rÆJ  è´J  tÆJ     è J   q™ J    Ñ rx_wrap_BSONObj_get Ñ q_wrap_BSONObj_get - Q  orq xÑ q""._swig_wrap_BSONObj_get „ T  qE   (   uÆY  rÆY  è´Y  tÆY     è Y   q™ Y    Ñ rx_wrap_BSONObj_getContent__SWIG_0 Ñ q_wrap_BSONObj_getContent__SWIG_0 - `  orq xÑ q ""._swig_wrap_BSONObj_getContent__SWIG_0 „ c   qE   (   uÆh  rÆh  è´h  tÆh     è h   q™ h    Ñ r!x_wrap_BSONObj_getContent__SWIG_1 Ñ q"_wrap_BSONObj_getContent__SWIG_1 - o  o!rq "xÑ q#""._swig_wrap_BSONObj_getContent__SWIG_1 „ r  #qE   0   uÆw  !rÆw  è´w  tÆw     è w   q™ w    Ñ r$x_wrap_BSONObj_getXpath Ñ q%_wrap_BSONObj_getXpath - ~  o$rq %xÑ q&""._swig_wrap_BSONObj_getXpath „ Å  &qE   (   uÆÜ  $rÆÜ  è´Ü  tÆÜ     è Ü   q™ Ü    Ñ r'x_wrap_BSONObj_Xselect Ñ q(_wrap_BSONObj_Xselect - ç  o'rq (xÑ q)""._swig_wrap_BSONObj_Xselect „ ê  )qE   (   uÆï  'rÆï  è´ï  tÆï     è ï   q™ ï    Ñ r*x_wrap_BSONObj_Xtype Ñ q+_wrap_BSONObj_Xtype - ú  o*rq +xÑ q,""._swig_wrap_BSONObj_Xtype „ ü  ,qE   (   uÆ§  *rÆ§  è´§  tÆ§     è §   q™ §    Ñ r-x_wrap_BSONObj_toChar Ñ q._wrap_BSONObj_toChar - ´  o-rq .xÑ q/""._swig_wrap_BSONObj_toChar „ Æ  /qE       uÆ≥  -rÆ≥  è´≥  tÆ≥     è ≥   q™ ≥    Ñ r0x_wrap_BSONObj_begin Ñ q1_wrap_BSONObj_begin - ∫  o0rq 1xÑ q""._swig_wrap_BSONObj_begin „ Ω  qE      uÆ¬  0rÆ¬  è´¬  tÆ¬     è ¬   q™ ¬    Ñ rx_wrap_BSONObj_end Ñ q_wrap_BSONObj_end - …  orq xÑ q""._swig_wrap_BSONObj_end „ Ã  qE      uÆ—  rÆ—  è´—  tÆ—     è —   q™ —    Ñ rx_wrap_BSONObj_length Ñ q_wrap_BSONObj_length - ÿ  orq xÑ q""._swig_wrap_BSONObj_length „ €  qE      uÆ‡  rÆ‡  èÑ tp ´‡  tÆ‡     èÑ q	runtime.cgocall  ‡   	q™ ‡    Ñ r
-x_wrap_new_BSONParser Ñ q_wrap_new_BSONParser - Á  o
-rq xÑ q""._swig_wrap_new_BSONParser „ Í  qE      uÆÔ  
-rÆÔ  è´Ô  tÆÔ     è Ô   	q™ Ô    Ñ rx_wrap_delete_BSONParser Ñ q_wrap_delete_BSONParser - ˆ  orq xÑ q""._swig_wrap_delete_BSONParser „ ˘  qE      uÆ˛  rÆ˛  è´˛  tÆ˛     è ˛   	q™ ˛    Ñ rx_wrap_BSONParser_parse Ñ q_wrap_BSONParser_parse -   orq xÑ q""._swig_wrap_BSONParser_parse „   qE      uÆ  rÆ  è´  tÆ     è    	q™     Ñ rx_wrap_BSONParser_parseArray Ñ q_wrap_BSONParser_parseArray -   orq xÑ q""._swig_wrap_BSONParser_parseArray „   qE      uÆ  rÆ  è´  tÆ     è    	q™     Ñ rx_wrap_FO_NONE Ñ q_wrap_FO_NONE - #  orq xÑ q""._swig_getFO_NONE „ &  qE      uÆ+  rÆ+  è´+  tÆ+     è +   	q™ +    Ñ rx_wrap_FO_TOKEN Ñ q_wrap_FO_TOKEN - 2  orq xÑ q""._swig_getFO_TOKEN „ 5  qE      uÆ:  rÆ:  è´:  tÆ:     è :   	q™ :    Ñ rx_wrap_FO_AND Ñ q_wrap_FO_AND - A  orq xÑ q""._swig_getFO_AND „ D  qE      uÆI  rÆI  è´I  tÆI     è I   	q™ I    Ñ rx_wrap_FO_OR Ñ q _wrap_FO_OR - P  orq  xÑ q!""._swig_getFO_OR „ S  !qE      uÆX  rÆX  è´X  tÆX     è X   	q™ X    Ñ r"x_wrap_FO_EQUALS Ñ q#_wrap_FO_EQUALS - _  o"rq #xÑ q$""._swig_getFO_EQUALS „ b  $qE      uÆg  "rÆg  è´g  tÆg     è g   	q™ g    Ñ r%x_wrap_FO_NOT_EQUALS Ñ q&_wrap_FO_NOT_EQUALS - n  o%rq &xÑ q'""._swig_getFO_NOT_EQUALS „ q  'qE      uÆv  %rÆv  è´v  tÆv     è v   	q™ v    Ñ r(x_wrap_FO_PARENTESIS_OPEN Ñ q)_wrap_FO_PARENTESIS_OPEN - }  o(rq )xÑ q*""._swig_getFO_PARENTESIS_OPEN „ Ä  *qE      uÆÖ  (rÆÖ  è´Ö  tÆÖ     è Ö   	q™ Ö    Ñ r+x_wrap_FO_PARENTESIS_CLOSE Ñ q,_wrap_FO_PARENTESIS_CLOSE - å  o+rq ,xÑ q-""._swig_getFO_PARENTESIS_CLOSE „ è  -qE      uÆî  +rÆî  è´î  tÆî     è î   	q™ î    Ñ r.x_wrap_FO_NOT Ñ q/_wrap_FO_NOT - õ  o.rq /xÑ q0""._swig_getFO_NOT „ û  0qE      uÆ£  .rÆ£  è´£  tÆ£     è £   	q™ £    Ñ r1x_wrap_FO_LESSTHAN Ñ q_wrap_FO_LESSTHAN - ™  o1rq xÑ q""._swig_getFO_LESSTHAN „ ≠  qE      uÆ≤  1rÆ≤  è´≤  tÆ≤     è ≤   	q™ ≤    Ñ rx_wrap_FO_LESSEQUALTHAN Ñ q_wrap_FO_LESSEQUALTHAN - π  orq xÑ q""._swig_getFO_LESSEQUALTHAN „ º  qE      uÆ¡  rÆ¡  è´¡  tÆ¡     è ¡   	q™ ¡    Ñ rx_wrap_FO_GREATERTHAN Ñ q_wrap_FO_GREATERTHAN - »  orq xÑ q""._swig_getFO_GREATERTHAN „ À  qE      uÆ–  rÆ–  èÑ t	p ´–  	tÆ–     èÑ q
-runtime.cgocall  –   
-q™ –    Ñ rx_wrap_FO_GREATEREQUALTHAN Ñ q_wrap_FO_GREATEREQUALTHAN - ◊  orq xÑ q""._swig_getFO_GREATEREQUALTHAN „ ⁄  qE      uÆﬂ  rÆﬂ  è´ﬂ  	tÆﬂ     è ﬂ   
-q™ ﬂ    Ñ rx_wrap_FO_EXISTS Ñ q_wrap_FO_EXISTS - Ê  orq xÑ q""._swig_getFO_EXISTS „ È  qE      uÆÓ  rÆÓ  è´Ó  	tÆÓ     è Ó   
-q™ Ó    Ñ rx_wrap_ET_CONSTANT Ñ q_wrap_ET_CONSTANT - ı  orq xÑ q""._swig_getET_CONSTANT „ ¯  qE      uÆ˝  rÆ˝  è´˝  	tÆ˝     è ˝   
-q™ ˝    Ñ rx_wrap_ET_SIMPLE Ñ q_wrap_ET_SIMPLE - 	  orq xÑ q""._swig_getET_SIMPLE „ 	  qE      uÆ	  rÆ	  è´	  	tÆ	     è 	   
-q™ 	    Ñ rx_wrap_ET_BINARY Ñ q_wrap_ET_BINARY - 	  orq xÑ q""._swig_getET_BINARY „ 	  qE      uÆ	  rÆ	  è´	  	tÆ	     è 	   
-q™ 	    Ñ rx_wrap_ET_UNARY Ñ q_wrap_ET_UNARY - "	  orq xÑ q""._swig_getET_UNARY „ %	  qE      uÆ*	  rÆ*	  è´*	  	tÆ*	     è *	   
-q™ *	    Ñ rx_wrap_parseFilterOperator Ñ q_wrap_parseFilterOperator - 1	  orq xÑ q"".ParseFilterOperator „ 4	  qE      uÆ9	  rÆ9	  è´9	  	tÆ9	     è 9	   
-q™ 9	    Ñ r x_wrap_new_ParseException__SWIG_0 Ñ q!_wrap_new_ParseException__SWIG_0 - @	  o rq !xÑ q"""._swig_wrap_new_ParseException__SWIG_0 „ C	  "qE   (   uÆH	   rÆH	  è´H	  	tÆH	     è H	   
-q™ H	    Ñ r#x_wrap_new_ParseException__SWIG_1 Ñ q$_wrap_new_ParseException__SWIG_1 - O	  o#rq $xÑ q%""._swig_wrap_new_ParseException__SWIG_1 „ R	  %qE      uÆW	  #rÆW	  è´W	  	tÆW	     è W	   
-q™ W	    Ñ r&x_wrap_ParseException_what Ñ q'_wrap_ParseException_what - ^	  o&rq 'xÑ q(""._swig_wrap_ParseException_what „ a	  (qE       uÆf	  &rÆf	  è´f	  	tÆf	     è f	   
-q™ f	    Ñ r)x_wrap_ParseException_errorCode Ñ q*_wrap_ParseException_errorCode - m	  o)rq *xÑ q+""._swig_wrap_ParseException_errorCode „ p	  +qE      uÆu	  )rÆu	  è´u	  	tÆu	     è u	   
-q™ u	    Ñ r,x_wrap_delete_ParseException Ñ q-_wrap_delete_ParseException - |	  o,rq -xÑ q.""._swig_wrap_delete_ParseException „ 	  .qE      uÆÑ	  ,rÆÑ	  è´Ñ	  	tÆÑ	     è Ñ	   
-q™ Ñ	    Ñ r/x_wrap_bson_splitSelect Ñ q0_wrap_bson_splitSelect - ã	  o/rq 0xÑ q1""._swig_wrap_bson_splitSelect „ é	  1qE      uÆì	  /rÆì	  è´ì	  	tÆì	     è ì	   
-q™ ì	    Ñ rx_wrap_bson_subselect Ñ q_wrap_bson_subselect - ö	  orq xÑ q"".Bson_subselect „ ù	  qE   0   uÆ¢	  rÆ¢	  è´¢	  	tÆ¢	     è ¢	   
-q™ ¢	    Ñ rx_wrap_convert Ñ q_wrap_convert - ©	  orq xÑ q""._swig_wrap_convert „ ¨	  qE       uÆ±	  rÆ±	  è´±	  	tÆ±	     è ±	   
-q™ ±	    Ñ rx_wrap_new_DjondbConnection__SWIG_0 Ñ q_wrap_new_DjondbConnection__SWIG_0 - ∏	  orq xÑ q	""._swig_wrap_new_DjondbConnection__SWIG_0 „ ª	  	qE       uÆ¿	  rÆ¿	  èÑ t
-p ´¿	  
-tÆ¿	     èÑ qruntime.cgocall  ¿	   q™ ¿	    Ñ rx_wrap_new_DjondbConnection__SWIG_1 Ñ q_wrap_new_DjondbConnection__SWIG_1 - «	  orq xÑ q""._swig_wrap_new_DjondbConnection__SWIG_1 „  	  qE   (   uÆœ	  rÆœ	  è´œ	  
-tÆœ	     è œ	   q™ œ	    Ñ rx_wrap_new_DjondbConnection__SWIG_2 Ñ q_wrap_new_DjondbConnection__SWIG_2 - ÷	  orq xÑ q""._swig_wrap_new_DjondbConnection__SWIG_2 „ Ÿ	  qE      uÆﬁ	  rÆﬁ	  è´ﬁ	  
-tÆﬁ	     è ﬁ	   q™ ﬁ	    Ñ rx_wrap_delete_DjondbConnection Ñ q_wrap_delete_DjondbConnection - Â	  orq xÑ q""._swig_wrap_delete_DjondbConnection „ Ë	  qE      uÆÌ	  rÆÌ	  è´Ì	  
-tÆÌ	     è Ì	   q™ Ì	    Ñ rx_wrap_DjondbConnection_beginTransaction Ñ q_wrap_DjondbConnection_beginTransaction - Ù	  orq xÑ q""._swig_wrap_DjondbConnection_beginTransaction „ ˜	  qE       uÆ¸	  rÆ¸	  è´¸	  
-tÆ¸	     è ¸	   q™ ¸	    Ñ rx_wrap_DjondbConnection_commitTransaction Ñ q_wrap_DjondbConnection_commitTransaction - 
-  orq xÑ q""._swig_wrap_DjondbConnection_commitTransaction „ 
-  qE      uÆ
-  rÆ
-  è´
-  
-tÆ
-     è 
-   q™ 
-    Ñ rx_wrap_DjondbConnection_rollbackTransaction Ñ q_wrap_DjondbConnection_rollbackTransaction - 
-  orq xÑ q""._swig_wrap_DjondbConnection_rollbackTransaction „ 
-  qE      uÆ
-  rÆ
-  è´
-  
-tÆ
-     è 
-   q™ 
-    Ñ rx_wrap_DjondbConnection_open Ñ q_wrap_DjondbConnection_open - !
-  orq xÑ q ""._swig_wrap_DjondbConnection_open „ $
-   qE      uÆ)
-  rÆ)
-  è´)
-  
-tÆ)
-     è )
-   q™ )
-    Ñ r!x_wrap_DjondbConnection_close Ñ q"_wrap_DjondbConnection_close - 0
-  o!rq "xÑ q#""._swig_wrap_DjondbConnection_close „ 3
-  #qE      uÆ8
-  !rÆ8
-  è´8
-  
-tÆ8
-     è 8
-   q™ 8
-    Ñ r$x_wrap_DjondbConnection_internalClose Ñ q%_wrap_DjondbConnection_internalClose - ?
-  o$rq %xÑ q&""._swig_wrap_DjondbConnection_internalClose „ B
-  &qE      uÆG
-  $rÆG
-  è´G
-  
-tÆG
-     è G
-   q™ G
-    Ñ r'x_wrap_DjondbConnection_isOpen Ñ q(_wrap_DjondbConnection_isOpen - N
-  o'rq (xÑ q)""._swig_wrap_DjondbConnection_isOpen „ Q
-  )qE      uÆV
-  'rÆV
-  è´V
-  
-tÆV
-     è V
-   q™ V
-    Ñ r*x_wrap_DjondbConnection_shutdown Ñ q+_wrap_DjondbConnection_shutdown - ]
-  o*rq +xÑ q,""._swig_wrap_DjondbConnection_shutdown „ `
-  ,qE      uÆe
-  *rÆe
-  è´e
-  
-tÆe
-     è e
-   q™ e
-    Ñ r-x_wrap_DjondbConnection_insert__SWIG_0 Ñ q._wrap_DjondbConnection_insert__SWIG_0 - l
-  o-rq .xÑ q/""._swig_wrap_DjondbConnection_insert__SWIG_0 „ o
-  /qE   H   uÆt
-  -rÆt
-  è´t
-  
-tÆt
-     è t
-   q™ t
-    Ñ r0x_wrap_DjondbConnection_insert__SWIG_1 Ñ q1_wrap_DjondbConnection_insert__SWIG_1 - {
-  o0rq 1xÑ q""._swig_wrap_DjondbConnection_insert__SWIG_1 „ ~
-  qE   @   uÆÉ
-  0rÆÉ
-  è´É
-  
-tÆÉ
-     è É
-   q™ É
-    Ñ rx_wrap_DjondbConnection_findByKey__SWIG_0 Ñ q_wrap_DjondbConnection_findByKey__SWIG_0 - ä
-  orq xÑ q""._swig_wrap_DjondbConnection_findByKey__SWIG_0 „ ç
-  qE   X   uÆí
-  rÆí
-  è´í
-  
-tÆí
-     è í
-   q™ í
-    Ñ rx_wrap_DjondbConnection_findByKey__SWIG_1 Ñ q_wrap_DjondbConnection_findByKey__SWIG_1 - ô
-  orq xÑ q""._swig_wrap_DjondbConnection_findByKey__SWIG_1 „ ú
-  qE   H   uÆ°
-  rÆ°
-  è´°
-  
-tÆ°
-     è °
-   q™ °
-    Ñ rx_wrap_DjondbConnection_find__SWIG_0 Ñ q	_wrap_DjondbConnection_find__SWIG_0 - ®
-  orq 	xÑ q
-""._swig_wrap_DjondbConnection_find__SWIG_0 „ ´
-  
-qE   8   uÆ∞
-  rÆ∞
-  èÑ tp ´∞
-  tÆ∞
-     èÑ qruntime.cgocall  ∞
-   q™ ∞
-    Ñ rx_wrap_DjondbConnection_find__SWIG_1 Ñ q_wrap_DjondbConnection_find__SWIG_1 - ∑
-  orq xÑ q""._swig_wrap_DjondbConnection_find__SWIG_1 „ ∫
-  qE   @   uÆø
-  rÆø
-  è´ø
-  tÆø
-     è ø
-   q™ ø
-    Ñ rx_wrap_DjondbConnection_find__SWIG_2 Ñ q_wrap_DjondbConnection_find__SWIG_2 - ∆
-  orq xÑ q""._swig_wrap_DjondbConnection_find__SWIG_2 „ …
-  qE   H   uÆŒ
-  rÆŒ
-  è´Œ
-  tÆŒ
-     è Œ
-   q™ Œ
-    Ñ rx_wrap_DjondbConnection_find__SWIG_3 Ñ q_wrap_DjondbConnection_find__SWIG_3 - ’
-  orq xÑ q""._swig_wrap_DjondbConnection_find__SWIG_3 „ ÿ
-  qE   P   uÆ›
-  rÆ›
-  è´›
-  tÆ›
-     è ›
-   q™ ›
-    Ñ rx_wrap_DjondbConnection_find__SWIG_4 Ñ q_wrap_DjondbConnection_find__SWIG_4 - ‰
-  orq xÑ q""._swig_wrap_DjondbConnection_find__SWIG_4 „ Á
-  qE   X   uÆÏ
-  rÆÏ
-  è´Ï
-  tÆÏ
-     è Ï
-   q™ Ï
-    Ñ rx_wrap_DjondbConnection_find__SWIG_5 Ñ q_wrap_DjondbConnection_find__SWIG_5 - Û
-  orq xÑ q""._swig_wrap_DjondbConnection_find__SWIG_5 „ ˆ
-  qE   `   uÆ˚
-  rÆ˚
-  è´˚
-  tÆ˚
-     è ˚
-   q™ ˚
-    Ñ rx_wrap_DjondbConnection_update__SWIG_0 Ñ q_wrap_DjondbConnection_update__SWIG_0 -   orq xÑ q""._swig_wrap_DjondbConnection_update__SWIG_0 „   qE   H   uÆ
-  rÆ
-  è´
-  tÆ
-     è 
-   q™ 
-    Ñ rx_wrap_DjondbConnection_update__SWIG_1 Ñ q _wrap_DjondbConnection_update__SWIG_1 -   orq  xÑ q!""._swig_wrap_DjondbConnection_update__SWIG_1 „   !qE   @   uÆ  rÆ  è´  tÆ     è    q™     Ñ r"x_wrap_DjondbConnection_remove Ñ q#_wrap_DjondbConnection_remove -    o"rq #xÑ q$""._swig_wrap_DjondbConnection_remove „ #  $qE   X   uÆ(  "rÆ(  è´(  tÆ(     è (   q™ (    Ñ r%x_wrap_DjondbConnection_executeQuery Ñ q&_wrap_DjondbConnection_executeQuery - /  o%rq &xÑ q'""._swig_wrap_DjondbConnection_executeQuery „ 2  'qE   (   uÆ7  %rÆ7  è´7  tÆ7     è 7   q™ 7    Ñ r(x_wrap_DjondbConnection_executeUpdate Ñ q)_wrap_DjondbConnection_executeUpdate - >  o(rq )xÑ q*""._swig_wrap_DjondbConnection_executeUpdate „ A  *qE   (   uÆF  (rÆF  è´F  tÆF     è F   q™ F    Ñ r+x_wrap_DjondbConnection_dropNamespace Ñ q,_wrap_DjondbConnection_dropNamespace - M  o+rq ,xÑ q-""._swig_wrap_DjondbConnection_dropNamespace „ P  -qE   8   uÆU  +rÆU  è´U  tÆU     è U   q™ U    Ñ r.x_wrap_DjondbConnection_dbs Ñ q/_wrap_DjondbConnection_dbs - \  o.rq /xÑ q0""._swig_wrap_DjondbConnection_dbs „ _  0qE      uÆd  .rÆd  è´d  tÆd     è d   q™ d    Ñ r1x_wrap_DjondbConnection_namespaces Ñ q_wrap_DjondbConnection_namespaces - k  o1rq xÑ q""._swig_wrap_DjondbConnection_namespaces „ n  qE   (   uÆs  1rÆs  è´s  tÆs     è s   q™ s    Ñ rx_wrap_DjondbConnection_host Ñ q_wrap_DjondbConnection_host - z  orq xÑ q""._swig_wrap_DjondbConnection_host „ }  qE       uÆÇ  rÆÇ  è´Ç  tÆÇ     è Ç   q™ Ç    Ñ rx_wrap_new_DjondbCursor__SWIG_0 Ñ q_wrap_new_DjondbCursor__SWIG_0 - â  orq xÑ q""._swig_wrap_new_DjondbCursor__SWIG_0 „ å  qE   @   uÆë  rÆë  è´ë  tÆë     è ë   q™ ë    Ñ r	x_wrap_new_DjondbCursor__SWIG_1 Ñ q
-_wrap_new_DjondbCursor__SWIG_1 - ò  o	rq 
-xÑ q""._swig_wrap_new_DjondbCursor__SWIG_1 „ õ  qE      uÆ†  	rÆ†  èÑ tp ´†  tÆ†     èÑ qruntime.cgocall  †   q™ †    Ñ rx_wrap_delete_DjondbCursor Ñ q_wrap_delete_DjondbCursor - ß  orq xÑ q""._swig_wrap_delete_DjondbCursor „ ™  qE      uÆØ  rÆØ  è´Ø  tÆØ     è Ø   q™ Ø    Ñ rx_wrap_DjondbCursor_next Ñ q_wrap_DjondbCursor_next - ∂  orq xÑ q""._swig_wrap_DjondbCursor_next „ π  qE      uÆæ  rÆæ  è´æ  tÆæ     è æ   q™ æ    Ñ rx_wrap_DjondbCursor_previous Ñ q_wrap_DjondbCursor_previous - ≈  orq xÑ q""._swig_wrap_DjondbCursor_previous „ »  qE      uÆÕ  rÆÕ  è´Õ  tÆÕ     è Õ   q™ Õ    Ñ rx_wrap_DjondbCursor_current Ñ q_wrap_DjondbCursor_current - ‘  orq xÑ q""._swig_wrap_DjondbCursor_current „ ◊  qE      uÆ‹  rÆ‹  è´‹  tÆ‹     è ‹   q™ ‹    Ñ rx_wrap_DjondbCursor_length Ñ q_wrap_DjondbCursor_length - „  orq xÑ q""._swig_wrap_DjondbCursor_length „ Ê  qE      uÆÎ  rÆÎ  è´Î  tÆÎ     è Î   q™ Î    Ñ rx_wrap_DjondbCursor_releaseCursor Ñ q_wrap_DjondbCursor_releaseCursor - Ú  orq xÑ q""._swig_wrap_DjondbCursor_releaseCursor „ ı  qE      uÆ˙  rÆ˙  è´˙  tÆ˙     è ˙   q™ ˙    Ñ r x_wrap_DjondbCursor_seek Ñ q!_wrap_DjondbCursor_seek -   o rq !xÑ q"""._swig_wrap_DjondbCursor_seek „   "qE      uÆ	   rÆ	  è´	  tÆ	     è 	   q™ 	    Ñ r#x_wrap_ConnectionReference__connection_set Ñ q$_wrap_ConnectionReference__connection_set -   o#rq $xÑ q%""._swig_wrap_ConnectionReference__connection_set „   %qE      uÆ  #rÆ  è´  tÆ     è    q™     Ñ r&x_wrap_ConnectionReference__connection_get Ñ q'_wrap_ConnectionReference__connection_get -   o&rq 'xÑ q(""._swig_wrap_ConnectionReference__connection_get „ "  (qE      uÆ'  &rÆ'  è´'  tÆ'     è '   q™ '    Ñ r)x_wrap_ConnectionReference__references_set Ñ q*_wrap_ConnectionReference__references_set - .  o)rq *xÑ q+""._swig_wrap_ConnectionReference__references_set „ 1  +qE      uÆ6  )rÆ6  è´6  tÆ6     è 6   q™ 6    Ñ r,x_wrap_ConnectionReference__references_get Ñ q-_wrap_ConnectionReference__references_get - =  o,rq -xÑ q.""._swig_wrap_ConnectionReference__references_get „ @  .qE      uÆE  ,rÆE  è´E  tÆE     è E   q™ E    Ñ r/x_wrap_new_ConnectionReference Ñ q0_wrap_new_ConnectionReference - L  o/rq 0xÑ q1""._swig_wrap_new_ConnectionReference „ O  1qE      uÆT  /rÆT  è´T  tÆT     è T   q™ T    Ñ rx_wrap_delete_ConnectionReference Ñ q_wrap_delete_ConnectionReference - [  orq xÑ q""._swig_wrap_delete_ConnectionReference „ ^  qE      uÆc  rÆc  è´c  tÆc     è c   q™ c    Ñ rx_wrap_new_DjondbConnectionManager Ñ q_wrap_new_DjondbConnectionManager - j  orq xÑ q""._swig_wrap_new_DjondbConnectionManager „ m  qE      uÆr  rÆr  è´r  tÆr     è r   q™ r    Ñ rx_wrap_delete_DjondbConnectionManager Ñ q_wrap_delete_DjondbConnectionManager - y  orq xÑ q	""._swig_wrap_delete_DjondbConnectionManager „ |  	qE      uÆÅ  rÆÅ  è´Å  tÆÅ     è Å   q™ Å    Ñ r
-x_wrap_DjondbConnectionManager_getConnection__SWIG_0 Ñ q_wrap_DjondbConnectionManager_getConnection__SWIG_0 - à  o
-rq xÑ q""._swig_wrap_DjondbConnectionManager_getConnection__SWIG_0 „ ã  qE      uÆê  
-rÆê  èÑ tp ´ê  tÆê     èÑ qruntime.cgocall  ê   q™ ê    Ñ rx_wrap_DjondbConnectionManager_getConnection__SWIG_1 Ñ q_wrap_DjondbConnectionManager_getConnection__SWIG_1 - ó  orq xÑ q""._swig_wrap_DjondbConnectionManager_getConnection__SWIG_1 „ ö  qE       uÆü  rÆü  è´ü  tÆü     è ü   q™ ü    Ñ rx_wrap_DjondbConnectionManager_releaseConnection Ñ q_wrap_DjondbConnectionManager_releaseConnection - ¶  orq xÑ q""._swig_wrap_DjondbConnectionManager_releaseConnection „ ©  qE      uÆÆ  rÆÆ  è´Æ  tÆÆ     è Æ   q™ Æ    Ñ rx_wrap_BSONObj_getContent__SWIG_0 6 Æ  r   uÑ rx_wrap_ParseException_what 6 Æ  r   uÑ rx_wrap_BSONObj_getContent__SWIG_1 6 Æ  r   uÑ rx_wrap_StringVector_isEmpty 6 Æ  r   uÑ rx_wrap_ParseException_errorCode 6 Æ  r   uÑ rx_wrap_DjondbConnection_insert__SWIG_0 6 Æ  r   uÑ rx_wrap_DjondbConnection_insert__SWIG_1 6 Æ  r   uÑ rx_wrap_delete_DjondbConnection 6 Æ  r   uÑ rx_wrap_DjondbConnection_rollbackTransaction 6 Æ  r   uÑ qruntime.startup_random_data 6 Æ  q   uÑ rx_wrap_BSONArrayObj_toChar 6 Æ  r   uÑ r x_wrap_DjondbConnection_internalClose 6 Æ   r   uÑ r!x_wrap_ET_UNARY 6 Æ  !r   uÑ r"x_wrap_DjondbCursor_length 6 Æ  "r   uÑ r#x_wrap_BSONObjVectorPtr_reserve 6 Æ  #r   uÑ r$x_wrap_new_BSONParser 6 Æ  $r   uÑ r%x_wrap_DjondbCursor_previous 6 Æ  %r   uÑ r&x_wrap_BSONObjVectorPtr_capacity 6 Æ  &r   uÑ r'x_wrap_new_DjondbCursor__SWIG_0 6 Æ  'r   uÑ r(x_wrap_new_DjondbCursor__SWIG_1 6 Æ  (r   uÑ r)x_wrap_BSONObj_add__SWIG_0 6 Æ  )r   uÑ r*x_wrap_BSONObj_add__SWIG_1 6 Æ  *r   uÑ r+x_wrap_BSONObj_add__SWIG_2 6 Æ  +r   uÑ r,x_wrap_BSONObj_add__SWIG_3 6 Æ  ,r   uÑ r-x_wrap_BSONObj_add__SWIG_4 6 Æ  -r   uÑ r.x_wrap_BSONObj_add__SWIG_5 6 Æ  .r   uÑ r/x_wrap_BSONObj_add__SWIG_6 6 Æ  /r   uÑ r0x_wrap_BSONObj_add__SWIG_7 6 Æ  0r   uÑ r1x_wrap_BSONObj_add__SWIG_8 6 Æ  1r   uÑ rx_wrap_BSONObjVectorPtr_size 6 Æ  r   uÑ rx_wrap_FO_NOT_EQUALS 6 Æ  r   uÑ rx_wrap_BSONObj_getBSONArray 6 Æ  r   uÑ rx_wrap_DjondbConnection_update__SWIG_0 6 Æ  r   uÑ rx_wrap_DjondbConnection_update__SWIG_1 6 Æ  r   uÑ rx_wrap_BSONArrayObj_Xselect 6 Æ  r   uÑ rx_wrap_FO_LESSTHAN 6 Æ  r   uÑ rx_wrap_delete_StringVector 6 Æ  r   uÑ r	x_wrap_DjondbConnection_remove 6 Æ  	r   uÑ r
-x_wrap_delete_DjondbCursor 6 Æ  
-r   uÑ rx_wrap_DjondbConnection_host 6 Æ  r   uÑ rx_wrap_BSONObjVectorPtr_clear 6 Æ  r   uÑ rx_wrap_parseFilterOperator 6 Æ  r   uÑ rx_wrap_BSONArrayObj_addAll 6 Æ  r   uÑ rx_wrap_BSONObj_toChar 6 Æ  r   uÑ rx_wrap_delete_ParseException 6 Æ  r   uÑ rx_wrap_DjondbConnectionManager_getConnection__SWIG_0 6 Æ  r   uÑ rx_wrap_DjondbConnectionManager_getConnection__SWIG_1 6 Æ  r   uÑ rx_wrap_DjondbCursor_current 6 Æ  r   uÑ rx_wrap_DjondbConnection_executeUpdate 6 Æ  r   uÑ rx_wrap_FO_EXISTS 6 Æ  r   uÑ rx_wrap_StringVector_capacity 6 Æ  r   uÑ rx_wrap_ET_CONSTANT 6 Æ  r   uÑ rx_wrap_new_ParseException__SWIG_0 6 Æ  r   uÑ rx_wrap_new_ParseException__SWIG_1 6 Æ  r   uÑ rx_wrap_DjondbConnection_close 6 Æ  r   uÑ qruntime.startup_random_data_len 6 Æ  q   uÑ rx_wrap_DjondbConnection_isOpen 6 Æ  r   uÑ rx_wrap_StringVector_add 6 Æ  r   uÑ rx_wrap_BSONObj_end 6 Æ  r   uÑ rx_wrap_DjondbConnection_open 6 Æ  r   uÑ r x_wrap_BSONObj_has 6 Æ   r   uÑ r!x_wrap_BSONObj_get 6 Æ  !r   uÑ r"x_wrap_StringVector_clear 6 Æ  "r   uÑ r#x_wrap_BSONArrayObj_add 6 Æ  #r   uÑ r$x_wrap_BSONObj_getInt 6 Æ  $r   uÑ r%x_wrap_DjondbConnection_dropNamespace 6 Æ  %r   uÑ r&x_wrap_BSONObj_Xtype 6 Æ  &r   uÑ r'x_wrap_StringVector_get 6 Æ  'r   uÑ r(x_wrap_DjondbConnectionManager_releaseConnection 6 Æ  (r   uÑ r)x_wrap_FO_GREATERTHAN 6 Æ  )r   uÑ r*x_wrap_DjondbConnection_commitTransaction 6 Æ  *r   uÑ r+x_wrap_BSONObjVectorPtr_add 6 Æ  +r   uÑ r,x_wrap_DjondbConnection_beginTransaction 6 Æ  ,r   uÑ r-x_wrap_delete_ConnectionReference 6 Æ  -r   uÑ r.x_wrap_FO_PARENTESIS_CLOSE 6 Æ  .r   uÑ r/x_wrap_BSONArrayObj_get 6 Æ  /r   uÑ r0x_wrap_delete_BSONObjVectorPtr 6 Æ  0r   uÑ r1x_wrap_StringVector_reserve 6 Æ  1r   uÑ rx_wrap_convert 6 Æ  r   uÑ rx_wrap_new_BSONArrayObj__SWIG_0 6 Æ  r   uÑ rx_wrap_new_BSONArrayObj__SWIG_1 6 Æ  r   uÑ rx_wrap_BSONObjVectorPtr_get 6 Æ  r   uÑ rx_wrap_BSONObj_getLong 6 Æ  r   uÑ rx_wrap_StringVector_set 6 Æ  r   uÑ rx_wrap_BSONArrayObj_length 6 Æ  r   uÑ rx_wrap_ConnectionReference__connection_get 6 Æ  r   uÑ r	x_wrap_new_StringVector__SWIG_0 6 Æ  	r   uÑ r
-x_wrap_new_StringVector__SWIG_1 6 Æ  
-r   uÑ rx_wrap_FO_OR 6 Æ  r   uÑ rx_wrap_DjondbConnection_namespaces 6 Æ  r   uÑ rx_wrap_BSONParser_parse 6 Æ  r   uÑ rx_wrap_BSONObjVectorPtr_isEmpty 6 Æ  r   uÑ rx_wrap_BSONArrayObj_end__SWIG_0 6 Æ  r   uÑ rx_wrap_BSONArrayObj_end__SWIG_1 6 Æ  r   uÑ rx_wrap_DjondbConnection_executeQuery 6 Æ  r   uÑ rx_wrap_DjondbConnection_dbs 6 Æ  r   uÑ rx_wrap_bson_subselect 6 Æ  r   uÑ rx_wrap_delete_BSONObj 6 Æ  r   uÑ rx_wrap_BSONObjVectorPtr_set 6 Æ  r   uÑ rx_wrap_FO_TOKEN 6 Æ  r   uÑ rx_wrap_ConnectionReference__connection_set 6 Æ  r   uÑ rx_wrap_BSONObj_begin 6 Æ  r   uÑ rx_wrap_ET_BINARY 6 Æ  r   uÑ rx_wrap_FO_NONE 6 Æ  r   uÑ rx_wrap_BSONObj_getXpath 6 Æ  r   uÑ rx_wrap_DjondbCursor_next 6 Æ  r   uÑ rx_wrap_new_DjondbConnection__SWIG_0 6 Æ  r   uÑ rx_wrap_new_DjondbConnection__SWIG_1 6 Æ  r   uÑ rx_wrap_new_DjondbConnection__SWIG_2 6 Æ  r   uÑ r x_wrap_FO_AND 6 Æ   r   uÑ r!x_wrap_ConnectionReference__references_get 6 Æ  !r   uÑ r"x_wrap_BSONParser_parseArray 6 Æ  "r   uÑ r#x_wrap_BSONObj_length 6 Æ  #r   uÑ r$x_wrap_BSONObj_Xselect 6 Æ  $r   uÑ r%x_wrap_DjondbConnection_find__SWIG_0 6 Æ  %r   uÑ r&x_wrap_DjondbConnection_find__SWIG_1 6 Æ  &r   uÑ r'x_wrap_BSONObj_getString 6 Æ  'r   uÑ r(x_wrap_DjondbConnection_find__SWIG_2 6 Æ  (r   uÑ r)x_wrap_DjondbConnection_find__SWIG_3 6 Æ  )r   uÑ r*x_wrap_DjondbConnection_find__SWIG_4 6 Æ  *r   uÑ r+x_wrap_DjondbConnection_find__SWIG_5 6 Æ  +r   uÑ r,x_wrap_DjondbCursor_seek 6 Æ  ,r   uÑ r-x_wrap_FO_PARENTESIS_OPEN 6 Æ  -r   uÑ r.x_wrap_new_BSONObjVectorPtr__SWIG_0 6 Æ  .r   uÑ r/x_wrap_new_BSONObjVectorPtr__SWIG_1 6 Æ  /r   uÑ r0x_wrap_ET_SIMPLE 6 Æ  0r   uÑ r1x_wrap_FO_LESSEQUALTHAN 6 Æ  1r   uÑ rx_wrap_BSONObj_getDouble 6 Æ  r   uÑ rx_wrap_delete_BSONParser 6 Æ  r   uÑ rx_wrap_FO_GREATEREQUALTHAN 6 Æ  r   uÑ rx_wrap_bson_splitSelect 6 Æ  r   uÑ rx_wrap_ConnectionReference__references_set 6 Æ  r   uÑ rx_wrap_BSONObj_getBoolean 6 Æ  r   uÑ rx_wrap_DjondbConnection_shutdown 6 Æ  r   uÑ rx_wrap_FO_NOT 6 Æ  r   uÑ r	x_wrap_delete_BSONArrayObj 6 Æ  	r   uÑ r
-x_wrap_new_ConnectionReference 6 Æ  
-r   uÑ rx_wrap_StringVector_size 6 Æ  r   uÑ rx_wrap_new_BSONObj__SWIG_0 6 Æ  r   uÑ rx_wrap_BSONArrayObj_begin__SWIG_0 6 Æ  r   uÑ rx_wrap_new_BSONObj__SWIG_1 6 Æ  r   uÑ rx_wrap_BSONArrayObj_begin__SWIG_1 6 Æ  r   uÑ rx_wrap_DjondbConnection_findByKey__SWIG_0 6 Æ  r   uÑ rx_wrap_DjondbConnection_findByKey__SWIG_1 6 Æ  r   uÑ rx_wrap_FO_EQUALS 6 Æ  r   uÑ rx_wrap_BSONObj_getBSON 6 Æ  r   uÑ rx_wrap_delete_DjondbConnectionManager 6 Æ  r   uÑ rx_wrap_DjondbCursor_releaseCursor 6 Æ  r   uÑ rx_wrap_new_DjondbConnectionManager 6 Æ  r   uPÆ    
