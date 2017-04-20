@@ -1,4 +1,4 @@
-package djondb
+package djondbgo
 
 import (
 	"fmt"
