@@ -9,6 +9,7 @@ Note: please keep in mind that the connection object is not thread safe therefor
 ## Installation 
 
 Use the `go` command:
+
    $ go get github.com/djondb/djondbgo
 
 ## Requirements
@@ -23,30 +24,33 @@ Djondb GO depends on satori go.uuid, to retrieve it you can use:
 
 
 ## Example using DQL
-import (
-	"github.com/djondb/djondbgo"
-)
 
-func main() {
-	con := djondbgo.CreateConnection("localhost", 1243)
-	con.Open()
+Here's a simple example on how to use the driver, for the complete documentation please visit: http://djondb.com/docs/?section=go-driver
 
-	cur, err := con.ExecuteQuery("select * from testdb:testinsert")
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	res, err := cur.Next()
-	if err != nil {
-		t.Logf("Error %s", err)
-		t.FailNow()
-	}
+	import (
+		"github.com/djondb/djondbgo"
+	)
 
-	if res {
-		fmt.Println("current: ", cur.current())
+	func main() {
+		con := djondbgo.CreateConnection("localhost", 1243)
+		con.Open()
+
+		cur, err := con.ExecuteQuery("select * from testdb:testinsert")
+		if err != nil {
+			fmt.Println(err)
+			return
+		}
+		res, err := cur.Next()
+		if err != nil {
+			t.Logf("Error %s", err)
+			t.FailNow()
+		}
+
+		if res {
+			fmt.Println("current: ", cur.current())
+		}
 	}
-}
 
 ## Documentation
 
-For a complete documentation on methods please refer to here: http://djondb.com/docs/?section=go-driver
+http://djondb.com/docs/?section=go-driver
